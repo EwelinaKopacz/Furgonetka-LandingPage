@@ -1,13 +1,98 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* RESET STYLES */
+*,*::before, *::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: inherit;
+    font-weight: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    color:none;
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+/* GLOBAL STYLES */
+
+html {
+    height:100%;
+    font-size: 62.5%;
+    --site-width-max:1440px;
+    --site-width-min:320px;
+
+    /* colors */
+    --clr-white:#FFFFFF;
+    --clr-black:#000000;
+    --clr-background:#F6FBFF;
+
+    --clr-primary:#0F92D4;
+    --clr-secondary:#FFD21F;
+
+    --clr-shadow-btn1:#1A3344;
+    --clr-shadow-btn2:#733E17;
+
+    --clr-text-light:#FFFFFF;
+    --clr-text-dark:#1A3344;
+    --clr-input-label:#222222;
+    --clr-text-top:#666666;
+
+    /* fonts weight */
+    --ubuntu-fw-light:300;
+    --ubuntu-fw-medium:500;
+    --ubuntu-fw-bold:700;
+
+    --open-sans-fw-light:300;
+    --open-sans-fw-regular:400;
+    --open-sans-fw-semi-bold:600;
+
+    /*  size */
+
+    --fs-header1:68px;
+    --fs-header2:48px;
+    --fs-header3:32px;
+
+    --fs-text:16px;
+    --fs-button:18px;
+    --fs-input-label:14px;
+    --fs-top-text:13px;
+    --fs-hero-text:20px;
+
+    /* fonts family */
+    --font-family-primary:'Open Sans', sans-serif;
+    --font-family-secondary:'Ubuntu', sans-serif;
+
+
+    /*  others */
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+
+body {
+    font-family: var(--font-family-primary);
+    min-height: 100%;
+    font-size: 1.6rem;
+    color:var(--clr-black);
+    background-color: var(--clr-white);
+}
+
+button {
+    cursor:pointer;
 }

@@ -1,0 +1,10 @@
+.cta__btn {
+    width: 235px;
+    height: 52px;
+    padding: 8px 32px;
+    background: #0F92D4;
+    border: 1.5px solid #1A3344;
+    box-shadow: 2px 2px 0px #1A3344;
+    border-radius: 4px;
+    color: #FFFFFF;
+}

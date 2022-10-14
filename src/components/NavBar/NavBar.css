@@ -1,0 +1,7 @@
+.nav {
+    width: 100%;
+    min-height: 9rem;
+    display: flex;
+    align-items: center;
+    gap:101px;
+}

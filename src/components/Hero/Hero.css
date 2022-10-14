@@ -1,0 +1,115 @@
+.hero {
+    width: 100%;
+    height: 355px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:15px;
+    /* border:.5px solid blue; */
+}
+
+.hero__left, .hero__right {
+    width: 569px;
+    height: 340px;
+}
+
+.hero__left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+}
+
+.hero__right {
+    background-image: url(../../assets/hero-img.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain
+}
+
+.box__container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+}
+
+.box__description {
+    width: 100%;
+    height: 264px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+}
+.box__head {
+    width: 100%;
+    height: 167px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    isolation: isolate;
+    position: relative;
+    font-family: var(--font-family-secondary);
+}
+
+.head__text {
+    height: 13px;
+    font-weight: var(--ubuntu-fw-light);
+    font-size: var(--fs-top-text);
+    line-height: 100%;
+    text-transform: uppercase;
+    color: var(--clr-text-top);
+}
+
+.head__h1 {
+    height: 150px;
+    font-weight: var(--ubuntu-fw-bold);
+    font-size: var(--fs-header1);
+    line-height: 110%;
+    letter-spacing: -0.035em;
+    color:var(--clr-text-dark);
+    z-index: 2;
+}
+
+.head__special {
+    font-weight: var(--ubuntu-fw-light);
+    font-style: italic;
+}
+
+.head__img {
+    background-image: url(../../assets//special-underline.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 156px;
+}
+
+.box__info {
+    width: 100%;
+    height: 81px;
+}
+
+.box__text {
+    font-weight: var(--open-sans-fw-light);
+    font-size: var(--fs-hero-text);
+    line-height: 27px;
+    color:var(--clr-text-dark);
+}
+
+.box__btn {
+    width: 235px;
+    height: 52px;
+    border:.5px solid blue;
+}
+
+
+
