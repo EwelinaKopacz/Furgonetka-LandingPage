@@ -3,7 +3,11 @@ import './Button.css';
 
 const Button = ({text}) => {
     return (
-        <button className='cta__btn'>{text}</button>
+        <div className='box__btn cta'>
+            <button className='cta__btn'>
+                <p className='cta__text'>{text}</p>
+            </button>
+        </div>
     )
 }
 

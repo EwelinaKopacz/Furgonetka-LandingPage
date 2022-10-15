@@ -1,7 +1,19 @@
 .nav {
     width: 100%;
-    min-height: 9rem;
+    height: 91px;
+    padding: 0px 0px 1px;
     display: flex;
+    justify-content: flex-start;
     align-items: center;
-    gap:101px;
+    border: .5px solid blue;
 }
+
+.nav__container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 100px;
+    gap: 32px;
+}
+

@@ -6,7 +6,9 @@ import logo from '../../assets/furgonetka-logo.svg'
 const NavBar = () => {
     return(
         <nav className='nav'>
-            <NavBarLogo logo={logo} alt='furgonetka-logo'/>
+            <div className='nav__container'>
+                <NavBarLogo logo={logo} alt='furgonetka-logo'/>
+            </div>
         </nav>
     )
 
