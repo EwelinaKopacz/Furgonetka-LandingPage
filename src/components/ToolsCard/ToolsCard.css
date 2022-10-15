@@ -1,0 +1,32 @@
+.tools__card {
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+}
+
+.tools__photo {
+    width: 140px;
+    height: 140px;
+}
+
+.tools__description {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+}
+
+.tools__text {
+    font-weight: var(--open-sans-fw-light);
+    font-size: var(--fs-text);
+    line-height: 150%;
+    /* identical to box height, or 24px */
+    text-align: center;
+    color: var(--clr-text-dark);
+}
