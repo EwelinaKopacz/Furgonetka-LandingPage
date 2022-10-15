@@ -5,7 +5,6 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    border: .5px solid blue;
 }
 
 .nav__container {
