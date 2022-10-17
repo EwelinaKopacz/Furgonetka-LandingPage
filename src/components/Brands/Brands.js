@@ -7,7 +7,7 @@ const Brands = () => {
     return (
         <section className='brands'>
             <Intro
-                header={<>Przesyłki krajowe <span className="intro__header--italic">– DHL, FedEx, DPD, InPost i inni</span></>}
+                header={<>Przesyłki krajowe <span className="header__h2--italic">– DHL, FedEx, DPD, InPost i inni</span></>}
                 text='Za pośrednictwem Furgonetki nadasz przesyłki krajowe z DHL, FedEx, DPD, InPost, UPS, GLS, Pocztex,
                 ORLEN Paczka, Ambro Express, DeliGoo, Xpress Delivery i PallEx. Porównuj oferty najtańszych kurierów krajowych i wybierz usługę, którą potrzebujesz.'
                 className=''

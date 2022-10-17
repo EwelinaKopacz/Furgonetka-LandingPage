@@ -1,0 +1,14 @@
+.header__h2 {
+    font-family: var(--font-family-secondary);
+    font-weight: var(--ubuntu-fw-medium);
+    font-size: var(--fs-header2);
+    line-height: 110%;
+    text-align: center;
+    color: var(--clr-text-dark);
+    align-self: stretch;
+    padding: 4px;
+}
+
+.header__h2--italic{
+    font-style: italic;
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import './Offer.css';
 import offerIconArray from '../../db/offerIcons';
 import OfferCard from '../OfferCard/OfferCard';
+import Title from '../Title/Title';
 
 const Offer= () => {
     const renderOfferCard =(array)=>{
@@ -10,7 +11,7 @@ const Offer= () => {
     return (
         <section className='offer'>
             <div className='offer__container'>
-                <h2 className='offer__header'>Szeroki wybór <span className='offer__header--italic'>przesyłek krajowych</span></h2>
+                <Title header={<>Szeroki wybór <span className='header__h2--italic'>przesyłek krajowych</span></>}/>
                 <div className='offer__cards card'>
                     {renderOfferCard(offerIconArray)}
                 </div>

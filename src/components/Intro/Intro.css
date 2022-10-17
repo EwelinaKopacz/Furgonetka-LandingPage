@@ -32,21 +32,6 @@
     gap:16px;
 }
 
-.intro__header {
-    /* height: 53px; */
-    font-family: var(--font-family-secondary);
-    font-weight: var(--ubuntu-fw-medium);
-    font-size: var(--fs-header2);
-    line-height: 110%;
-    text-align: center;
-    color: var(--clr-text-dark);
-    padding: 4px;
-}
-
-.intro__header--italic{
-    font-style: italic;
-}
-
 .intro__text {
     max-width: 564px;
     /* height: 96px; */

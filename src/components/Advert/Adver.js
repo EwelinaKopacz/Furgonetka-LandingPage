@@ -2,6 +2,7 @@ import React from 'react';
 import './Advert.css';
 import CTAPhoto from "../../assets/cta-photo.svg";
 import Button from '../Button/Button';
+import Title from '../Title/Title';
 
 function Advert() {
   return (
@@ -13,7 +14,7 @@ function Advert() {
 
             <div className='advert__right'>
                 <div className='advert__description'>
-                    <h2 className='advert__header'>Furgonetka – tu znajdziesz <span className='advert__header--italic'>najtańsze przesyłki krajowe</span></h2>
+                    <Title header={<>Furgonetka – tu znajdziesz <span className='header__h2--italic'>najtańsze przesyłki krajowe</span></>}/>
                     <p className='advert__text'>Skorzystaj z bezpłatnego formularza i zamów wysyłkę swojej paczki w niskiej cenie. </p>
                 </div>
                 <div className='advert__btn'>

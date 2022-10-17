@@ -42,19 +42,6 @@
     gap: 16px;
 }
 
-.advert__header {
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 48px;
-    line-height: 110%;
-    color: #1A3344;
-    align-self: stretch;
-}
-
-.advert__header--italic {
-    font-style: italic;
-}
 
 .advert__text {
     font-family: 'Open Sans';

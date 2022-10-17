@@ -50,7 +50,6 @@
 }
 
 .head__text {
-
     font-weight: var(--ubuntu-fw-light);
     font-size: var(--fs-top-text);
     line-height: 100%;

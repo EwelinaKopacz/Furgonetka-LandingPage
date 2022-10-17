@@ -15,23 +15,10 @@
     margin:48px 0 80px 0;
 }
 
-.offer__header {
-    font-family: var(--font-family-secondary);
-    font-weight: var(--ubuntu-fw-medium);
-    font-size: var(--fs-header2);
-    line-height: 110%;
-    /* identical to box height, or 53px */
-    text-align: center;
-    color: var(--clr-text-dark);
-}
-
-.offer__header--italic {
-    font-style: italic;
-}
 
 .offer__cards {
     display: grid;
     grid-template-columns: 100px 1fr 100px;
-    grid-template-rows: max-content;
+    grid-template-rows: auto;
     gap:32px;
 }

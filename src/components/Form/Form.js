@@ -9,7 +9,7 @@ function Form() {
       <div className='form__wrapper'>
         <div className='form__container'>
           <Intro
-            header={<>Zapytaj o <span className="intro__header--italic">ofertę indywidualną</span></>}
+            header={<>Zapytaj o <span className="header__h2--italic">ofertę indywidualną</span></>}
             text='Nadajesz dużo przesyłek kurierskich krajowych? Napisz do nas, a oddzwonimy, żeby porozmawiać o indywidualnej ofercie.'
           />
           <ContactForm/>

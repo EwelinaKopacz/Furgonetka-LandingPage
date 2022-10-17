@@ -4,7 +4,9 @@
     align-items: center;
     padding: 8px 32px;
     border-radius: 4px;
+    cursor: pointer;
 }
+
 
 .cta__text {
     font-weight: var(--open-sans-fw-semi-bold);
@@ -36,12 +38,6 @@
     color: var(--clr-text-dark);
 }
 
-.cta__btn--msg {
-    background: var(--clr-form-success);
-    border: 1.5px solid var(--clr-text-light);
-    box-shadow: 2px 2px 0px var(--clr-text-light);
-}
-
-.cta__text--msg {
-    color: var(--clr-text-light);
+.cta__btn--primary:hover, .cta__btn--secondary:hover{
+    opacity: .7;
 }
