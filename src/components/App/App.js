@@ -7,6 +7,7 @@ import Offer from '../Offer/Offer';
 import Features from '../Features/Features';
 import Brands from '../Brands/Brands';
 import Advert from '../Advert/Adver';
+import Form from "../Form/Form";
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <Features/>
       <Brands/>
       <Advert/>
+      <Form/>
     </div>
   );
 }
