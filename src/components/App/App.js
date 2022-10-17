@@ -16,7 +16,7 @@ function App() {
       <NavBar/>
       <Hero/>
       <Intro
-        header='Wybierz tanie i szybkie przesyłki krajowe'
+        header={<><span className='intro__header--italic'>Wybierz tanie i szybkie</span> przesyłki krajowe</>}
         text='Wyceniaj i wysyłaj tanie paczki krajowe bez podpisywania umowy i określania minimum logistycznego. U nas płacisz tylko za nadane przesyłki.
         Nie pobieramy abonamentu za prowadzenie konta czy korzystanie z dostępnych narzędzi.'
         className="intro__container--margin48"

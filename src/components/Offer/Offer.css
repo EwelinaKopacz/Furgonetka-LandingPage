@@ -25,6 +25,10 @@
     color: var(--clr-text-dark);
 }
 
+.offer__header--italic {
+    font-style: italic;
+}
+
 .offer__cards {
     display: grid;
     grid-template-columns: 100px 1fr 100px;

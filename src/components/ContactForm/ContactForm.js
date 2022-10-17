@@ -1,3 +1,4 @@
+/* eslint-disable no-useless-escape */
 import React from 'react';
 import Button from '../Button/Button';
 import Message from '../Message/Message';
@@ -43,7 +44,7 @@ class ContactForm extends React.Component {
         let emailError = '';
 
         if(!this.checkPhone()){
-            phoneError = 'Błędny numer telefonu, min 9 liczb'
+            phoneError = 'Błędny numer telefonu, min 9 max 15 znaków'
         }
         if(!this.checkFirstName()){
             firstNameError = 'Imię musi składać się min. z 2 znaków'
@@ -65,7 +66,7 @@ class ContactForm extends React.Component {
 
     checkPhone = ()=>{
         const{phone} = this.state;
-        const regExp = /^[0-9]{9}/;
+        const regExp = /^[0-9]{9,15}$/;
         if(phone.match(regExp)){
             return true;
         }
@@ -135,7 +136,7 @@ class ContactForm extends React.Component {
                     </div>
                 </div>
                 <Button
-                    text='wylij swój kontakt'
+                    text='wyślij swój kontakt'
                     className='cta__btn--secondary'
                     className2='cta__text--secondary'
                 />

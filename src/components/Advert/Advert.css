@@ -52,6 +52,10 @@
     align-self: stretch;
 }
 
+.advert__header--italic {
+    font-style: italic;
+}
+
 .advert__text {
     font-family: 'Open Sans';
     font-style: normal;

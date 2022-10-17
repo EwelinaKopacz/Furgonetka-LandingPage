@@ -13,7 +13,7 @@ function Advert() {
 
             <div className='advert__right'>
                 <div className='advert__description'>
-                    <h2 className='advert__header'>Furgonetka – tu znajdziesz najtańsze przesyłki krajowe</h2>
+                    <h2 className='advert__header'>Furgonetka – tu znajdziesz <span className='advert__header--italic'>najtańsze przesyłki krajowe</span></h2>
                     <p className='advert__text'>Skorzystaj z bezpłatnego formularza i zamów wysyłkę swojej paczki w niskiej cenie. </p>
                 </div>
                 <div className='advert__btn'>
