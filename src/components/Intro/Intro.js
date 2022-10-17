@@ -2,17 +2,15 @@ import React from 'react';
 import './Intro.css';
 
 const Intro = (props) => {
-    const {header, text} = props;
+    const {header, text, className='', className2=''} = props;
     return (
-        <section className='intro'>
-            <div className='intro__container'>
+        <section className={`intro ${className2}`}>
+            <div className={`intro__container ${className}`}>
                 <div className='intro__description'>
-                    {/* <h2 className='intro__header'><span className='intro__special'>{special}</span> {header}</h2> */}
                     <h2 className='intro__header'>{header}</h2>
                     <p className='intro__text'>{text}</p>
                 </div>
             </div>
-
         </section>
     )
 }

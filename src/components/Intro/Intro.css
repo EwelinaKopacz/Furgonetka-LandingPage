@@ -1,19 +1,31 @@
 .intro {
     width: 100%;
-    height: calc(165px + 96px);
+    /* height: calc(165px + 96px); */
+    /* height: 165px; */
     background-color: var(--clr-background);
 }
 
+.intro--bg {
+    background-color: var(--clr-white);
+}
+
 .intro__container {
-    margin: 48px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
+.intro__container--margin48 {
+    margin: 48px 0;
+}
+
+.intro__container--margin80 {
+    margin: 80px 0 48px 0 ;
+}
+
 .intro__description {
-    height: 165px;
+    /* height: 165px; */
     max-width: 960px;
     display: flex;
     flex-direction: column;
@@ -23,7 +35,7 @@
 }
 
 .intro__header {
-    height: 53px;
+    /* height: 53px; */
     font-family: var(--font-family-secondary);
     font-style: italic;
     font-weight: var(--ubuntu-fw-medium);
@@ -37,7 +49,7 @@
 
 .intro__text {
     max-width: 564px;
-    height: 96px;
+    /* height: 96px; */
     font-family: 'Open Sans';
     font-weight: var(--ubuntu-fw-light);
     font-size: var(--fs-text);
