@@ -1,8 +1,8 @@
 import React from 'react';
 import './OfferCard.css';
 
-const OfferCard= (props) => {
-    const {header, text, photo} = props;
+const OfferCard= ({item}) => {
+    const {header, text, photo} = item;
     return (
         <div className='card__container'>
             <div className='card__description'>
