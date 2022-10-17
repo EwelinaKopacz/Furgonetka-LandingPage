@@ -35,3 +35,13 @@
 .cta__text--secondary {
     color: var(--clr-text-dark);
 }
+
+.cta__btn--msg {
+    background: var(--clr-form-success);
+    border: 1.5px solid var(--clr-text-light);
+    box-shadow: 2px 2px 0px var(--clr-text-light);
+}
+
+.cta__text--msg {
+    color: var(--clr-text-light);
+}

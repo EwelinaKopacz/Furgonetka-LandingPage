@@ -45,6 +45,8 @@ html {
 
     --clr-primary:#0F92D4;
     --clr-secondary:#FFD21F;
+    --clr-input-error:#cc0000;
+    --clr-form-success:#6b9431;
 
     --clr-shadow-btn1:#1A3344;
     --clr-shadow-btn2:#733E17;

@@ -5,6 +5,7 @@
     padding: 0px;
     gap: 32px;
     align-self: stretch;
+    position: relative;
 }
 
 .input__wrapper {
@@ -47,4 +48,13 @@
 
 .input__box:last-child .input__field{
     height: 348px;
+}
+
+.input__error {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: var(--clr-input-error);
 }
