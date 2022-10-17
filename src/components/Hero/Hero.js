@@ -17,7 +17,11 @@ const Hero = () => {
                         <p className='box__text'>Nadawaj przesyłki krajowe o różnych gabarytach ze sprawdzonymi przewoźnikami – z dostawą pod drzwi, do punktów odbioru i automatów paczkowych. </p>
                     </div>
                  </div>
-                <Button text='nadaj przesyłkę'/>
+                <Button
+                    text='nadaj przesyłkę'
+                    className='cta__btn--primary'
+                    className2='cta__text--primary'
+                    />
             </div>
         </div>
         <div className='hero__right box'></div>

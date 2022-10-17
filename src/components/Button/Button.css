@@ -1,13 +1,8 @@
 .cta__btn {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
-
     padding: 8px 32px;
-    background: var(--clr-primary);
-    border: 1.5px solid var(--clr-text-dark);
-    box-shadow: 2px 2px 0px var(--clr-text-dark);
     border-radius: 4px;
 }
 
@@ -15,8 +10,28 @@
     font-weight: var(--open-sans-fw-semi-bold);
     font-size: var(--fs-button);
     line-height: 25px;
+    text-align: center;
     letter-spacing: 1px;
     text-transform: uppercase;
     color: var(--clr-text-light);
+}
 
+.cta__btn--primary {
+    background: var(--clr-primary);
+    border: 1.5px solid var(--clr-text-dark);
+    box-shadow: 2px 2px 0px var(--clr-text-dark);
+}
+
+.cta__text--primary {
+    color: var(--clr-text-light);
+}
+
+.cta__btn--secondary {
+    background: var(--clr-secondary);
+    border: 1.5px solid var(--clr-shadow-btn2);
+    box-shadow: 2px 2px 0px var(--clr-shadow-btn2);
+}
+
+.cta__text--secondary {
+    color: var(--clr-text-dark);
 }
