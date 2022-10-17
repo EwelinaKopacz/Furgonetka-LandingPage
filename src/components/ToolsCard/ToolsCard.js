@@ -1,8 +1,8 @@
 import React from 'react';
 import './ToolsCard.css';
 
-const ToolsCard = (props) => {
-    const {photo, text} = props;
+const ToolsCard = ({item}) => {
+    const {photo, text} = item;
     return (
         <div className='tools__card'>
             <div className='tools__photo'>
