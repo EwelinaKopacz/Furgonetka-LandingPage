@@ -21,7 +21,7 @@ function Advert() {
                         text='nadaj przesyłkę'
                         className='cta__btn--secondary'
                         className2='cta__text--secondary'
-                        />
+                    />
                 </div>
             </div>
 
