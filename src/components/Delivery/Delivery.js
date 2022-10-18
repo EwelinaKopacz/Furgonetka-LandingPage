@@ -6,12 +6,12 @@ import deliveryPhoto from '../../assets/delivery-photo.svg';
 function Delivery() {
   return (
     <section className='delivery'>
-        <div className='delivery__container'>
+        <div className='delivery__container flex__row--center1'>
             <div className='delivery__photo'>
                 <img src={deliveryPhoto} alt=''/>
             </div>
-            <div className='delivery__list'>
-                <ul className='delivery__items'>
+            <div className='delivery__list flex__col--start1'>
+                <ul className='delivery__items flex__col--start1'>
                     <div className='delivery__box'>
                         <span className='delivery__icon'></span>
                         <li className='delivery__item'>

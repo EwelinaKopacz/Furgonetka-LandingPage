@@ -1,10 +1,6 @@
 .wrapper {
     max-width: var(--site-width-max);
     min-width: var(--site-width-min);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     background-color: var(--clr-white);
     margin:0 auto;
-    /* border:.5px solid blue; */
 }

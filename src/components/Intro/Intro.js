@@ -6,10 +6,9 @@ const Intro = (props) => {
     const {header, text, className='', className2=''} = props;
     return (
         <section className={`intro ${className2}`}>
-            <div className={`intro__container ${className}`}>
+            <div className={`intro__container flex__col--center2 ${className}`}>
                 <div className='intro__description'>
                     <Title header={header}/>
-                    {/* <h2 className='intro__header'>{header}</h2> */}
                     <p className='intro__text'>{text}</p>
                 </div>
             </div>

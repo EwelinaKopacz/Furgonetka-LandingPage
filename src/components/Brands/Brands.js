@@ -5,7 +5,7 @@ import './Brands.css';
 
 const Brands = () => {
     return (
-        <section className='brands'>
+        <section className='brands flex__col--center2'>
             <Intro
                 header={<>Przesyłki krajowe <span className="header__h2--italic">– DHL, FedEx, DPD, InPost i inni</span></>}
                 text='Za pośrednictwem Furgonetki nadasz przesyłki krajowe z DHL, FedEx, DPD, InPost, UPS, GLS, Pocztex,

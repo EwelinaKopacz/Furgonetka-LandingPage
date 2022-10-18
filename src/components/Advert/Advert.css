@@ -4,9 +4,6 @@
 }
 
 .advert__container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 24px 100px;
     gap: 63px;
 }
@@ -19,9 +16,6 @@
 
 .advert__right {
     width: 664px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     padding: 0px;
     gap: 24px;
 }
@@ -35,13 +29,9 @@
 }
 
 .advert__description {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     padding: 0px;
     gap: 16px;
 }
-
 
 .advert__text {
     font-family: 'Open Sans';

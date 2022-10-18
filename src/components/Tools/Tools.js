@@ -8,7 +8,7 @@ const Tools = () => {
         return array.map(item => <ToolsCard item={item} key={item.id}/>)
     }
     return (
-        <section className='tools'>
+        <section className='tools flex__col--center2'>
             <div className='tools__container tools'>
                 {renderToolsCard(toolsIconArray1)}
             </div>

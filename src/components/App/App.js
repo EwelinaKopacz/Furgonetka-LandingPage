@@ -6,7 +6,7 @@ import Main from '../../layout/Main/Main';
 
 function App() {
   return (
-    <div className='wrapper'>
+    <div className='wrapper flex__col--center1'>
       <Header/>
       <Main/>
     </div>

@@ -1,8 +1,5 @@
 .card__container {
     grid-column: 2/3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     gap:96px;
 }
 .card__container:nth-child(even) .card__description {

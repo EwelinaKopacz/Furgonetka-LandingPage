@@ -9,7 +9,7 @@ const Offer= () => {
         return array.map(item => <OfferCard item={item} key={item.id}/>)
     }
     return (
-        <section className='offer'>
+        <section className='offer flex__col--center2'>
             <div className='offer__container'>
                 <Title header={<>Szeroki wybór <span className='header__h2--italic'>przesyłek krajowych</span></>}/>
                 <div className='offer__cards card'>

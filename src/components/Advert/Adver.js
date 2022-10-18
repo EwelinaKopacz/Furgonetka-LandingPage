@@ -7,13 +7,13 @@ import Title from '../Title/Title';
 function Advert() {
   return (
     <section className='advert'>
-        <div className='advert__container'>
+        <div className='advert__container flex__row--center1'>
             <div className='advert__left'>
                 <img className='advert__photo' src={CTAPhoto} alt='kobieta pracujaca przy komputerze'></img>
             </div>
 
-            <div className='advert__right'>
-                <div className='advert__description'>
+            <div className='advert__right flex__col--start1'>
+                <div className='advert__description flex__col--start1'>
                     <Title header={<>Furgonetka – tu znajdziesz <span className='header__h2--italic'>najtańsze przesyłki krajowe</span></>}/>
                     <p className='advert__text'>Skorzystaj z bezpłatnego formularza i zamów wysyłkę swojej paczki w niskiej cenie. </p>
                 </div>

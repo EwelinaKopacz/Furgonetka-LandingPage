@@ -5,9 +5,6 @@
 }
 
 .delivery__container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 0 100px;
     gap: 60px;
 }
@@ -18,16 +15,10 @@
 
 .delivery__list {
     width: 480px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     padding: 0px;
 }
 
 .delivery__items {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     padding: 0px;
     gap: 16px;
 }

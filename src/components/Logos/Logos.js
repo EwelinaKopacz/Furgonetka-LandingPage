@@ -9,9 +9,9 @@ const Logos = () => {
     }
     return (
         <section className='logos'>
-            <div className='logos__container'>
-                <div className='logos__boxes'>
-                    <div className='logos__box'>
+            <div className='logos__container flex__row--center2 '>
+                <div className='logos__boxes flex__col--center2'>
+                    <div className='logos__box flex__row--center2 '>
                         {renderArray(couriesRow1Array)}
                     </div>
                     <div className='logos__box'>

@@ -5,10 +5,10 @@ import Button from '../Button/Button';
 const Hero = () => {
   return (
     <section className='hero'>
-        <div className='hero__left box'>
-            <div className='box__container'>
-                <div className='box__description'>
-                    <div className='box__head'>
+        <div className='hero__left box flex__col--center1'>
+            <div className='box__container flex__col--start1'>
+                <div className='box__description flex__col--start1'>
+                    <div className='box__head flex__col--start1'>
                         <span className='head__text'>FURGONETKA</span>
                         <h1 className='head__h1'>Przesyłki krajowe <span className='head__special'>z Furgonetką</span></h1>
                         <span className='head__img'></span>

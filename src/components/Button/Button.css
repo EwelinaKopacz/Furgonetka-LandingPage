@@ -1,12 +1,8 @@
 .cta__btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 8px 32px;
     border-radius: 4px;
     cursor: pointer;
 }
-
 
 .cta__text {
     font-weight: var(--open-sans-fw-semi-bold);
