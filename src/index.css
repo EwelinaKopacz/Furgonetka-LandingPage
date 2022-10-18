@@ -34,7 +34,7 @@ img{
 
 html {
     height:100%;
-    font-size: 62.5%;
+    font-size:62.5%;
     --site-width-max:1440px;
     --site-width-min:320px;
 
@@ -78,7 +78,6 @@ html {
     /* fonts family */
     --font-family-primary:'Open Sans', sans-serif;
     --font-family-secondary:'Ubuntu', sans-serif;
-
 
     /*  others */
     scroll-behavior: smooth;
