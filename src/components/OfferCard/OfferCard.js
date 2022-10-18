@@ -4,7 +4,7 @@ import './OfferCard.css';
 const OfferCard= ({item}) => {
     const {header, text, photo} = item;
     return (
-        <div className='card__container flex__row--center1'>
+        <div className='card__container'>
             <div className='card__description'>
                 <h3 className='card__header'>{header}</h3>
                 <p className='card__text'>{text}</p>

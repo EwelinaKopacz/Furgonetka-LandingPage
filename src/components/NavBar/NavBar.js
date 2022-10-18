@@ -5,7 +5,7 @@ import logo from '../../assets/furgonetka-logo.svg'
 
 const NavBar = () => {
     return(
-        <nav className='nav flex__row--start2'>
+        <nav className='nav '>
             <div className='nav__container flex__row--start2'>
                 <NavBarLogo logo={logo} alt='furgonetka-logo'/>
             </div>

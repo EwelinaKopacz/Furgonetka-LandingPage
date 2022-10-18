@@ -1,11 +1,10 @@
 .tools {
     width: 100%;
-    padding: 0 100px;
+    padding: 0 7vw;
     gap:32px;
 }
 
 .tools__container {
-    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -13,4 +12,14 @@
     padding: 0 32px;
     gap: 16px;
     border-radius: 8px;
+}
+
+/* RWD */
+
+@media screen and (max-width: 690px) {
+    .tools__container {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
 }

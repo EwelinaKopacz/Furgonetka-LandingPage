@@ -1,27 +1,22 @@
 .form__main {
-    padding: 0px;
     gap: 32px;
     align-self: stretch;
     position: relative;
 }
 
 .input__wrapper {
-    padding: 0px;
     gap: 12px;
     align-self: stretch;
 }
 .input__box {
     width: 100%;
-    padding: 0px;
     gap: 8px;
 }
 .input__label {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
+    font-weight: var(--open-sans-fw-regular);
+    font-size: var(--fs-input-label);
     line-height: 19px;
-    color: #222222;
+    color: var(--clr-input-label);
 }
 
 .input__field {
@@ -30,21 +25,28 @@
     padding: 0px 20px 0px 16px;
     gap: 10px;
     height: 48px;
-    background: #FFFFFF;
-    border: 1px solid #1A3344;
+    background: var(--clr-white);
+    border: 1px solid var(--clr-text-dark);
     border-radius: 4px;
     align-self: stretch;
 }
 
 .input__box:last-child .input__field{
-    height: 348px;
+    height: 250px;
 }
 
 .input__error {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
+    font-weight: var(--open-sans-fw-regular);
+    font-size: var( --fs-input-label);
     color: var(--clr-input-error);
+    line-height: 19px;
+}
+
+/* RWD */
+
+@media screen and (max-width: 1010px) {
+    .input__box:last-child .input__field{
+        height: 125px;
+    }
+
 }

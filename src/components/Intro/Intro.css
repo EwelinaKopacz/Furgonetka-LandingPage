@@ -7,13 +7,6 @@
     background-color: var(--clr-white);
 }
 
-/* .intro__container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-} */
-
 .intro__container--margin48 {
     margin: 48px 0;
 }
@@ -23,6 +16,7 @@
 }
 
 .intro__description {
+    width: 100%;
     max-width: 960px;
     display: flex;
     flex-direction: column;
@@ -32,15 +26,23 @@
 }
 
 .intro__text {
+    width: 100%;
     max-width: 564px;
-    font-family: 'Open Sans';
     font-weight: var(--ubuntu-fw-light);
     font-size: var(--fs-text);
+    color: var(--clr-text-dark);
     line-height: 150%;
     text-align: center;
-    color: var(--clr-text-dark);
 }
 
 .intro__special {
     font-style: italic;
+}
+
+/* RWD */
+
+@media screen and (max-width: 600px) {
+    .intro__text {
+        width: 80%;
+    }
 }

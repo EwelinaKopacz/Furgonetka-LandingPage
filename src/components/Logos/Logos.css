@@ -3,18 +3,15 @@
 }
 
 .logos__container {
-    padding: 0px;
     gap: 24px;
 }
 
 .logos__boxes {
     width: 100%;
-    padding: 0px;
     gap: 24px;
 }
 
 .logos__box {
-    padding: 0px;
     gap: 28px;
 }
 

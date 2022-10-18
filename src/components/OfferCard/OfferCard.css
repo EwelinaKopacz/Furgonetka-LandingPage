@@ -1,5 +1,9 @@
 .card__container {
     grid-column: 2/3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     gap:96px;
 }
 .card__container:nth-child(even) .card__description {
@@ -7,6 +11,7 @@
 }
 
 .card__description {
+    flex: 1 1 40%;
     max-width: 496px;
     display: flex;
     flex-direction: column;
@@ -14,27 +19,48 @@
     align-items: flex-start;
     padding-left:32px;
     gap: 16px;
-    /* flex:1 1 50%; */
 }
 
 .card__header {
     font-family: var(--font-family-secondary);
     font-weight: var(--ubuntu-fw-bold);
-    font-size: var(--fs-header3);
+    font-size: clamp(1.6rem, 1.1429rem + 2.2857vw, var(--fs-header3));
     line-height: 37px;
-    /* identical to box height */
     color: var(--clr-text-dark);
 }
 
 .card__text {
     font-weight: var(--open-sans-fw-light);
-    font-size: var( --fs-text);
+    font-size: var(--fs-text);
     line-height: 150%;
-    /* or 24px */
     color: var(--clr-text-dark);
 }
 
 .card__photo {
-    /* flex:1 1 40%; */
+    flex:1 1 30%;
     max-width: 375px;
+    max-height: 250px;
 }
+
+/* RWD */
+
+@media screen and (max-width: 880px) {
+    .card__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding:10px 0;
+        gap:40px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    }
+
+    .card__container .card__description {
+        order:2;
+    }
+
+    .card__description {
+        padding:10px 32px;
+    }
+}
+

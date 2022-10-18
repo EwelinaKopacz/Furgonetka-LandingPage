@@ -11,10 +11,22 @@
     margin:48px 0 80px 0;
 }
 
+.offer__title {
+    width: 65%;
+    max-width: 940px;
 
+}
 .offer__cards {
     display: grid;
-    grid-template-columns: 100px 1fr 100px;
-    grid-template-rows: auto;
+    grid-template-columns: 7vw 1fr 7vw;
     gap:32px;
+}
+
+
+/* RWD */
+
+@media screen and (max-width: 880px) {
+    .offer__cards {
+        gap:50px 0px;
+    }
 }

@@ -65,15 +65,15 @@ html {
     --open-sans-fw-semi-bold:600;
 
     /*  size */
-    --fs-header1:68px;
-    --fs-header2:48px;
-    --fs-header3:32px;
+    --fs-header1:6.8rem;
+    --fs-header2:4.8rem;
+    --fs-header3:3.2rem;
 
-    --fs-text:16px;
-    --fs-button:18px;
-    --fs-input-label:14px;
-    --fs-top-text:13px;
-    --fs-hero-text:20px;
+    --fs-text:1.6rem;
+    --fs-button:1.8rem;
+    --fs-input-label:1.4rem;
+    --fs-top-text:1.3rem;
+    --fs-hero-text:2rem;
 
     /* fonts family */
     --font-family-primary:'Open Sans', sans-serif;
@@ -88,7 +88,6 @@ html {
 body {
     font-family: var(--font-family-primary);
     min-height: 100%;
-    max-width: 100%;
     font-size: 1.6rem;
     color:var(--clr-black);
     background-color: var(--clr-white);

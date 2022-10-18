@@ -11,7 +11,7 @@ const Offer= () => {
     return (
         <section className='offer flex__col--center2'>
             <div className='offer__container'>
-                <Title header={<>Szeroki wybór <span className='header__h2--italic'>przesyłek krajowych</span></>}/>
+                <div className='offer__title'><Title header={<>Szeroki wybór <span className='header__h2--italic'>przesyłek krajowych</span></>}/></div>
                 <div className='offer__cards card'>
                     {renderOfferCard(offerIconArray)}
                 </div>

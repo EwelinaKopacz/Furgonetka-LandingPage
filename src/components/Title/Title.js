@@ -1,10 +1,10 @@
 import React from 'react';
 import './Title.css';
 
-const Title= ({header}) => {
+const Title= ({header, className=''}) => {
     return(
         <>
-            <h2 className='header__h2'>{header}</h2>
+            <h2 className={`header__h2 ${className}`}>{header}</h2>
         </>
     )
 }
