@@ -1,7 +1,7 @@
 .delivery {
     width: 100%;
     background-color: var(--clr-background);
-    margin-bottom: 80px; /* ?? */
+    margin-bottom: 5.5vw;
 }
 
 .delivery__container {

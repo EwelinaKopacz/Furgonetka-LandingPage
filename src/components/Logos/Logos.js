@@ -11,7 +11,7 @@ const Logos = () => {
         <section className='logos'>
             <div className='logos__container flex__row--center2 '>
                 <div className='logos__boxes flex__col--center2'>
-                    <div className='logos__box flex__row--center2 '>
+                    <div className='logos__box'>
                         {renderArray(couriesRow1Array)}
                     </div>
                     <div className='logos__box'>
