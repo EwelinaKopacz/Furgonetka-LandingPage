@@ -54,7 +54,7 @@
 
 .delivery__text {
     font-weight: var(--open-sans-fw-light);
-    font-size: var(--fs-text);
+    font-size: clamp(1.4rem, 1.6571rem + -0.2857vw, var(--fs-text));
     line-height: 150%;
     color: var(--clr-text-dark);
 }
@@ -66,7 +66,6 @@
     align-items: center;
     gap: 5px;
     height: 24px;
-    
 }
 
 .delivery__name {
@@ -124,4 +123,24 @@
         align-items: center;
     }
 }
+
+@media screen and (max-width: 450px) {
+    .delivery__container {
+        padding:20px 0;
+    }
+    .delivery__box {
+        position: relative;
+    }
+
+    .delivery__label {
+        position: absolute;
+        top:100%;
+        left:13%
+    }
+    .delivery__items {
+        gap:25px;
+    }
+}
+
+
 
