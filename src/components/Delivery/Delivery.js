@@ -17,42 +17,59 @@ function Delivery() {
                         <li className='delivery__item'>
                             <p className='delivery__text'>Paczka w Weekend</p>
                         </li>
-                        <p className='delivery__label'><span className='delivery__name delivery__label--inpost'>InPost</span></p>
+
+                        <div className='delivery__label'>
+                            <span className='delivery__name delivery__name--inpost'>InPost</span>
+                        </div>
+
                     </div>
                     <div className='delivery__box'>
                         <span className='delivery__icon'></span>
                         <li className='delivery__item'>
                             <p className='delivery__text'>Doręczenie przesyłki w sobotę</p>
                         </li>
-                        <span className='delivery__label'><span className='delivery__name delivery__label--dhl'>DHL</span><span className='delivery__name delivery__label--inpost'>InPost</span><span className='delivery__name delivery__label--dpd'>DPD</span></span>
+                        <div className='delivery__label'>
+                            <span className='delivery__name delivery__name--dhl'>DHL</span>
+                            <span className='delivery__name delivery__name--inpost'>InPost</span>
+                            <span className='delivery__name delivery__name--dpd'>DPD</span>
+                        </div>
                     </div>
                     <div className='delivery__box'>
                         <span className='delivery__icon'></span>
                         <li className='delivery__item'>
                             <p className='delivery__text'>Doręczenie do danej godziny</p>
                         </li>
-                        <p className='delivery__label'><span className='delivery__name delivery__label--dpd'>DPD</span></p>
+                        <div className='delivery__label'>
+                            <span className='delivery__name delivery__name--dpd'>DPD</span>
+                        </div>
                     </div>
                     <div className='delivery__box'>
                         <span className='delivery__icon'></span>
                         <li className='delivery__item'>
                             <p className='delivery__text'>Doręczenie na drugi dzień</p>
                         </li>
-                        <p className='delivery__label'><span className='delivery__name delivery__label--dpd'>DPD</span></p>
+                        <div className='delivery__label'>
+                            <span className='delivery__name delivery__name--dpd'>DPD</span>
+                        </div>
                     </div>
                     <div className='delivery__box'>
                         <span className='delivery__icon'></span>
                         <li className='delivery__item'>
                             <p className='delivery__text'>Doręczenie we wskazany dzień</p>
                         </li>
-                        <p className='delivery__label'><span className='delivery__name delivery__label--pocztex'>Pocztex</span></p>
+                        <div className='delivery__label'>
+                            <span className='delivery__name delivery__name--pocztex'>Pocztex</span>
+                        </div>
                     </div>
                     <div className='delivery__box'>
                         <span className='delivery__icon'></span>
                         <li className='delivery__item'>
                             <p className='delivery__text'>Przesyłka ekspresowa</p>
                         </li>
-                        <p className='delivery__label'><span className='delivery__name delivery__label--deligoo'>DeliGoo</span><span className='delivery__name delivery__label--xpressdelivery'>Xpress Delivery</span></p>
+                        <div className='delivery__label'>
+                            <span className='delivery__name delivery__name--deligoo'>DeliGoo</span>
+                            <span className='delivery__name delivery__name--xpressdelivery'>Xpress Delivery</span>
+                        </div>
                     </div>
                 </ul>
             </div>
