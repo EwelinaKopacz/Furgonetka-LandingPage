@@ -16,10 +16,11 @@
 
 /* RWD */
 
-@media screen and (max-width: 690px) {
+@media screen and (max-width: 600px) {
     .tools__container {
         flex-direction: column;
         align-items: center;
         gap: 30px;
+        padding:0 16px;
     }
 }
