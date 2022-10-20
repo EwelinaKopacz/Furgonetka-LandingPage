@@ -4,7 +4,7 @@ import './ToolsCard.css';
 const ToolsCard = ({item}) => {
     const {photo, text} = item;
     return (
-        <div className='tools__card flex__col--center2'>
+        <div className='tools__card'>
             <div className='tools__photo'>
                 <img src={photo} alt=''/>
             </div>

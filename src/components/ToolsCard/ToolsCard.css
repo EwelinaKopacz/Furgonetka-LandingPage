@@ -2,6 +2,10 @@
     width: 40%;
     max-width: 260px;
     gap: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .tools__photo {
@@ -27,6 +31,22 @@
         width: 100px;
         height: 100px;
     }
+}
 
-   
+@media screen and (max-width: 650px) {
+    .tools__card {
+        flex-direction: row;
+        width: 95%;
+        max-width: none;
+    }
+    .tools__photo {
+        width: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .tools__description {
+        width: 70%;
+    }
 }
