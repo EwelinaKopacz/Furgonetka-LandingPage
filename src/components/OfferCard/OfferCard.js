@@ -2,7 +2,7 @@ import React from 'react';
 import './OfferCard.css';
 
 const OfferCard= ({item}) => {
-    const {header, text, photo} = item;
+    const {header, text, photo, alt} = item;
     return (
         <div className='card__container'>
             <div className='card__description'>
@@ -10,7 +10,7 @@ const OfferCard= ({item}) => {
                 <p className='card__text'>{text}</p>
             </div>
             <div className='card__photo'>
-                <img src={photo} alt='' />
+                <img src={photo} alt={alt} />
             </div>
 
         </div>

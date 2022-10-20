@@ -8,7 +8,7 @@ function Delivery() {
     <section className='delivery'>
         <div className='delivery__container'>
             <div className='delivery__photo'>
-                <img src={deliveryPhoto} alt=''/>
+                <img src={deliveryPhoto} alt='kobieta z otwartą przesyłką'/>
             </div>
             <div className='delivery__list'>
                 <ul className='delivery__items flex__col--start1'>

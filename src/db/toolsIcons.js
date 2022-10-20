@@ -10,17 +10,20 @@ const toolsIconArray1 = [
     {
         id:0,
         text:'Śledzenie przesyłek',
-        photo:toolsPhoto1
+        photo:toolsPhoto1,
+        alt:'ikona paczki'
     },
     {
         id:1,
         text:'Książka adresowa',
-        photo:toolsPhoto2
+        photo:toolsPhoto2,
+        alt:'ikona ksiązki adresowej'
     },
     {
         id:2,
         text:'Szablony przesyłek',
-        photo:toolsPhoto3
+        photo:toolsPhoto3,
+        alt:'ikona otwartej paczki'
     },
 
 ]
@@ -28,12 +31,14 @@ const toolsIconArray2 = [
     {
         id:3,
         text:'Inne dane na etykiecie',
-        photo:toolsPhoto4
+        photo:toolsPhoto4,
+        alt:'ikona etykiety na paczce'
     },
     {
         id:4,
         text:'Zamówienie paczki bez zlecania podjazdu kuriera',
-        photo:toolsPhoto5
+        photo:toolsPhoto5,
+        alt:'ikona kuriera'
     },
 ];
 
