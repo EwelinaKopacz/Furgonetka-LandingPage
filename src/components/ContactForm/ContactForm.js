@@ -108,7 +108,7 @@ class ContactForm extends React.Component {
         const {phone,firstName,lastName,email,message, phoneError, firstNameError,lastNameError,emailError, isValid} = this.state;
         return (
             <form className='form__main input flex__col--center1' noValidate onSubmit={this.submitHandler}>
-                {isValid ? <Message/> : null}
+                {isValid ? <Message show='true'/> : null}
                 <div className='input__wrapper flex__col--start1'>
                     <div className='input__box flex__col--start1'>
                         <label className='input__label' htmlFor='phone'>Twój numer telefonu: </label>

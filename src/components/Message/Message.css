@@ -13,6 +13,9 @@
     z-index: 1000;
     gap:16px;
 }
+.message__container--inactive {
+    display: none;
+}
 
 .message__info {
     color: var(--clr-input-label);
