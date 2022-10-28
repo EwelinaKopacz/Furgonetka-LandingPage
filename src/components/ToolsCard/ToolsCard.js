@@ -1,5 +1,4 @@
 import React from 'react';
-import './ToolsCard.css';
 
 const ToolsCard = ({item}) => {
     const {photo, text, alt} = item;

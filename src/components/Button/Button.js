@@ -1,11 +1,10 @@
 import React from 'react';
-import './Button.css';
 
-const Button = ({text, className='', className2='', onClick}) => {
+const Button = ({text, className='', onClick}) => {
     return (
-        <div className='box__btn cta flex__row--center1'>
-            <button className={`cta__btn ${className}`} onClick={onClick}>
-                <p className={`cta__text ${className2}`}>{text}</p>
+        <div className='btn btn__container'>
+            <button className={className} onClick={onClick}>
+                <p className='btn__text'>{text}</p>
             </button>
         </div>
     )

@@ -1,5 +1,4 @@
 import React from 'react';
-import './OfferCard.css';
 
 const OfferCard= ({item}) => {
     const {header, text, photo, alt} = item;

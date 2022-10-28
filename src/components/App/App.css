@@ -1,6 +1,0 @@
-.wrapper {
-    max-width: var(--site-width-max);
-    min-width: var(--site-width-min);
-    background-color: var(--clr-white);
-    margin:0 auto;
-}

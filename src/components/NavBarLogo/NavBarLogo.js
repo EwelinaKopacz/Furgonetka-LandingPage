@@ -1,5 +1,4 @@
 import React from 'react';
-import './NavBarLogo.css';
 
 const NavBarLogo = (props) => {
     const {logo, alt} = props;
@@ -8,7 +7,6 @@ const NavBarLogo = (props) => {
             <img src={logo} alt={alt}/>
         </div>
     )
-
 }
 
 export default NavBarLogo;

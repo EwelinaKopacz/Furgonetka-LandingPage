@@ -1,5 +1,4 @@
 import React from 'react';
-import './Advert.css';
 import CTAPhoto from "../../assets/cta-photo.svg";
 import Button from '../Button/Button';
 import Title from '../Title/Title';
@@ -21,11 +20,7 @@ function Advert() {
                     <p className='advert__text'>Skorzystaj z bezpłatnego formularza i zamów wysyłkę swojej paczki w niskiej cenie. </p>
                 </div>
                 <div className='advert__btn'>
-                    <Button
-                        text='nadaj przesyłkę'
-                        className='cta__btn--secondary'
-                        className2='cta__text--secondary'
-                    />
+                    <Button text='nadaj przesyłkę' className='btn--secondary'/>
                 </div>
             </div>
 

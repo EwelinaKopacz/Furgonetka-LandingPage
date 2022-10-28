@@ -2,7 +2,6 @@
 import React from 'react';
 import Button from '../Button/Button';
 import Message from '../Message/Message';
-import './ContactForm.css';
 
 const initState = {
         phone:'',
@@ -107,39 +106,35 @@ class ContactForm extends React.Component {
     render(){
         const {phone,firstName,lastName,email,message, phoneError, firstNameError,lastNameError,emailError, isValid} = this.state;
         return (
-            <form className='form__main input flex__col--center1' noValidate onSubmit={this.submitHandler}>
-                {isValid ? <Message show='true'/> : null}
-                <div className='input__wrapper flex__col--start1'>
-                    <div className='input__box flex__col--start1'>
+            <form className='form' noValidate onSubmit={this.submitHandler}>
+                {isValid ? <Message/> : null}
+                <div className='form__wrapper'>
+                    <div className='input__box'>
                         <label className='input__label' htmlFor='phone'>Twój numer telefonu: </label>
                         <input className='input__field' type='tel' id='phone' name='phone' value={phone} onChange={this.inputHandler}/>
                         <span className='input__error'>{phoneError}</span>
                     </div>
-                    <div className='input__box flex__col--start1'>
+                    <div className='input__box'>
                         <label className='input__label' htmlFor='firstName'>Twoje imię: </label>
                         <input className='input__field' type='text' id='firstName' name='firstName' value={firstName} onChange={this.inputHandler}/>
                         <span className='input__error'>{firstNameError}</span>
                     </div>
-                    <div className='input__box flex__col--start1'>
+                    <div className='input__box'>
                         <label className='input__label' htmlFor='lastName'>Twoje nazwisko / Nazwa firmy: </label>
                         <input className='input__field' type='text' id='lastName' name='lastName' value={lastName} onChange={this.inputHandler}/>
                         <span className='input__error'>{lastNameError}</span>
                     </div>
-                    <div className='input__box flex__col--start1'>
+                    <div className='input__box'>
                         <label className='input__label' htmlFor='email'>Adres email: </label>
                         <input className='input__field' type='email' id='email' name='email' value={email} onChange={this.inputHandler}/>
                         <span className='input__error'>{emailError}</span>
                     </div>
-                    <div className='input__box flex__col--start1'>
+                    <div className='input__box'>
                         <label className='input__label' htmlFor='message'>Wiadomość (opcjonalnie): </label>
                         <textarea className='input__field' id='message'name='message' value={message} onChange={this.inputHandler}/>
                     </div>
                 </div>
-                <Button
-                    text='wyślij swój kontakt'
-                    className='cta__btn--secondary'
-                    className2='cta__text--secondary'
-                />
+                <Button text='wyślij swój kontakt' className='btn--secondary'/>
             </form>
         );
     }

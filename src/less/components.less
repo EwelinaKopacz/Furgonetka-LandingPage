@@ -1,0 +1,92 @@
+/* BUTTONS */
+
+.btn(@background, @border, @shadow, @color){
+    padding: .5vw 2.2vw;
+    border-radius: 4px;
+    cursor: pointer;
+    background: @background;
+    border: 1.5px solid @border;
+    box-shadow: 2px 2px 0px @shadow;
+    color:@color;
+    &:hover {
+        opacity: .7;
+    }
+}
+
+.btn--primary {
+    .btn(@clr-primary,@clr-text-dark,@clr-shadow-primary,@clr-text-light)
+}
+
+.btn--secondary {
+    .btn(@clr-secondary,@clr-shadow-secondary,@clr-shadow-secondary,@clr-text-dark)
+}
+
+.btn--success {
+    .btn(@clr-third,@clr-shadow-success,@clr-shadow-success,@clr-text-light);
+    margin:0 auto;
+}
+
+
+/* INTRO */
+
+.intro(@background){
+    background-color: @background;
+}
+
+.intro--white{
+    .intro(@clr-white)
+}
+
+.intro__container(@padding){
+    padding:@padding;
+}
+
+.intro__container--spacer48{
+    .intro__container(3.3vw 0)
+}
+
+.intro__container--spacer80{
+    .intro__container(5.5vw 0 3.3vw 0)
+}
+
+/* DELIVERY */
+
+.delivery__name (@background, @color) {
+    .flex(row, center, center,10px);
+    padding: 0 8px;
+    height: 17px;
+    border-radius: 2px;
+    font-weight: @open-sans-fw-semi-bold;
+    font-size: @fs-courier-name;
+    line-height: 14px;
+    background-color: @background;
+    color:@color
+}
+
+.delivery__name--inpost {
+    .delivery__name(@clr-bg-inpost,@clr-black)
+}
+
+.delivery__name--dhl {
+    .delivery__name(@clr-bg-inpost,@clr-bg-dhl)
+}
+
+.delivery__name--dpd {
+    .delivery__name(@clr-fonts-dpd,@clr-white)
+}
+
+.delivery__name--pocztex {
+    .delivery__name(@clr-fonts-pocztex,@clr-white)
+}
+
+.delivery__name--deligoo {
+    .delivery__name(@clr-fonts-deligoo,@clr-white)
+}
+
+.delivery__name--xpressdelivery {
+    .delivery__name(@clr-black,@clr-white)
+}
+
+
+
+
