@@ -7,7 +7,7 @@ const ToolsCard = ({item}) => {
             <div className='tools__photo'>
                 <img src={photo} alt={alt}/>
             </div>
-            <div className='tools__description flex__col--center1'>
+            <div className='tools__description'>
                 <p className='tools__text'>{text}</p>
             </div>
         </div>
