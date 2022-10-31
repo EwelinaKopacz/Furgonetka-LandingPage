@@ -170,7 +170,7 @@ html button {
   gap: 0;
 }
 .hero .hero__wrapper .hero__right {
-  background: url('assets/hero-img.svg') no-repeat center center / contain;
+  background: url('../src/assets/hero-img.svg') no-repeat center center / contain;
   min-height: 100%;
 }
 .hero__container {
