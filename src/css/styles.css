@@ -170,7 +170,7 @@ html button {
   gap: 0;
 }
 .hero .hero__wrapper .hero__right {
-  background: url('assets/hero-img.svg') no-repeat center center / contain;
+  background: url('../assets/hero-img.svg') no-repeat center center / contain;
   min-height: 100%;
 }
 .hero__container {
@@ -219,7 +219,7 @@ html button {
   font-style: italic;
 }
 .hero__head .hero__img {
-  background: url('assets/special-underline.svg') no-repeat;
+  background: url('../assets/special-underline.svg') no-repeat;
   position: absolute;
   width: 100%;
   height: 21px;
@@ -565,7 +565,7 @@ html button {
   display: inline-block;
   width: 15px;
   height: 18px;
-  background: url('assets/list-icon.svg') no-repeat center bottom / contain;
+  background: url('../assets/list-icon.svg') no-repeat center bottom / contain;
 }
 .delivery__items .delivery__box .delivery__item {
   height: 24px;
