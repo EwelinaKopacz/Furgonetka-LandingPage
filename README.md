@@ -1,4 +1,4 @@
-# Project HTML & CSS - RWD
+# Furgonetka Landing Page
 
 ## Table of Contents
 1. [About the project](#about-the-project)
