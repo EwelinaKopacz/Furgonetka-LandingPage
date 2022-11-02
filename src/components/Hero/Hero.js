@@ -1,5 +1,7 @@
 import React from 'react';
 import Button from '../Button/Button';
+import heroImg from '../../assets/hero-img.svg';
+import heroUndeline from '../../assets/special-underline.svg';
 
 const Hero = () => {
   return (
@@ -11,7 +13,7 @@ const Hero = () => {
                         <div className='hero__head'>
                             <span className='hero__text'>FURGONETKA</span>
                             <h1 className='hero__h1'>Przesyłki krajowe <span className='hero__special'>z Furgonetką</span></h1>
-                            <span className='hero__img'></span>
+                            <span style={{backgroundImage:`url(${heroUndeline})`}}className='hero__img'></span>
                         </div>
                         <div className='hero__info'>
                             <p className='hero__content'>Nadawaj przesyłki krajowe o różnych gabarytach ze sprawdzonymi przewoźnikami – z dostawą pod drzwi, do punktów odbioru i automatów paczkowych. </p>
@@ -20,7 +22,7 @@ const Hero = () => {
                     <Button text='nadaj przesyłkę' className='btn--primary'/>
                 </div>
             </div>
-            <div className='hero__right'></div>
+            <div style={{backgroundImage:`url(${heroImg})`}} className='hero__right'></div>
         </div>
     </section>
   );
