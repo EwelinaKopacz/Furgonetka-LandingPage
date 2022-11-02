@@ -32,8 +32,7 @@ The contact form have to had implemented:
 * Live Site URL: [E.Kopacz-Furgonetka](https://furgonetka-ekopacz.netlify.app)
 
 ## Solutions
-Creating this project I had an opportunity to learn LESS CSS. 
-I have opportuninty to learn, how to created and used
+Creating this project I had an opportunity to learn LESS CSS, how to created and used:
 * mixins, 
 * variables, 
 * responsived views 
