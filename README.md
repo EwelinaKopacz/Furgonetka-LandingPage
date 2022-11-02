@@ -35,9 +35,9 @@ The contact form have to had implemented:
 Creating this project I had an opportunity to learn LESS CSS, how to created and used:
 * mixins, 
 * variables, 
-* responsived views 
-* reset and global styles
-* how to split data and files in LESS
+* responsive views,
+* reset and global styles,
+* how to split data and files
 in LESS CSS.
 
 
