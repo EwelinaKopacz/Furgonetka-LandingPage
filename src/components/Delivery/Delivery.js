@@ -1,6 +1,5 @@
 import React from 'react';
 import deliveryPhoto from '../../assets/delivery-photo.svg';
-import deliveryIcon from '../../assets/list-icon.svg';
 
 const Delivery = () => {
   return (
@@ -13,7 +12,7 @@ const Delivery = () => {
                 <div className='delivery__list'>
                     <ul className='delivery__items'>
                         <li className='delivery__box'>
-                            <span style={{backgroundImage:`url(${deliveryIcon})`}} className='delivery__icon'></span>
+                            <span className='delivery__icon'></span>
                             <div className='delivery__item'>
                                 <p className='delivery__text'>Paczka w Weekend</p>
                             </div>
@@ -24,7 +23,7 @@ const Delivery = () => {
 
                         </li>
                         <li className='delivery__box'>
-                            <span style={{backgroundImage:`url(${deliveryIcon})`}} className='delivery__icon'></span>
+                            <span className='delivery__icon'></span>
                             <div className='delivery__item'>
                                 <p className='delivery__text'>Doręczenie przesyłki w sobotę</p>
                             </div>
@@ -35,7 +34,7 @@ const Delivery = () => {
                             </div>
                         </li>
                         <li className='delivery__box'>
-                            <span style={{backgroundImage:`url(${deliveryIcon})`}} className='delivery__icon'></span>
+                            <span className='delivery__icon'></span>
                             <div className='delivery__item'>
                                 <p className='delivery__text'>Doręczenie do danej godziny</p>
                             </div>
@@ -44,7 +43,7 @@ const Delivery = () => {
                             </div>
                         </li>
                         <li className='delivery__box'>
-                            <span  style={{backgroundImage:`url(${deliveryIcon})`}}className='delivery__icon'></span>
+                            <span className='delivery__icon'></span>
                             <div className='delivery__item'>
                                 <p className='delivery__text'>Doręczenie na drugi dzień</p>
                             </div>
@@ -53,7 +52,7 @@ const Delivery = () => {
                             </div>
                         </li>
                         <li className='delivery__box'>
-                            <span style={{backgroundImage:`url(${deliveryIcon})`}}className='delivery__icon'></span>
+                            <span className='delivery__icon'></span>
                             <div className='delivery__item'>
                                 <p className='delivery__text'>Doręczenie we wskazany dzień</p>
                             </div>
@@ -62,7 +61,7 @@ const Delivery = () => {
                             </div>
                         </li>
                         <li className='delivery__box'>
-                            <span style={{backgroundImage:`url(${deliveryIcon})`}} className='delivery__icon'></span>
+                            <span className='delivery__icon'></span>
                             <div className='delivery__item'>
                                 <p className='delivery__text'>Przesyłka ekspresowa</p>
                             </div>

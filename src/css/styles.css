@@ -169,9 +169,7 @@ html button {
   gap: 0;
 }
 .hero .hero__wrapper .hero__right {
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
+  background: url('../../public/img/hero-img.svg') no-repeat center center / contain;
   min-height: 100%;
 }
 .hero__container {
@@ -220,6 +218,7 @@ html button {
   font-style: italic;
 }
 .hero__head .hero__img {
+  background-image: url('../../public/img/special-underline.svg');
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
@@ -566,9 +565,7 @@ html button {
   display: inline-block;
   width: 15px;
   height: 18px;
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  background-size: contain;
+  background: url('../../public/img/list-icon.svg') no-repeat center bottom / contain;
 }
 .delivery__items .delivery__box .delivery__item {
   height: 24px;
