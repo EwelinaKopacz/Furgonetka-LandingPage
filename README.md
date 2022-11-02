@@ -11,7 +11,7 @@
 ## About the project
 In this project I have created landing page based on project from Figma. 
 I had project for desktop version. Mobile version was designed by me :)
-In this proejct important was to used:
+The important things was to used:
 * BEM methodology
 * LESS preprocessor
 
