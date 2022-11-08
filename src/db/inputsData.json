@@ -1,0 +1,26 @@
+[
+    {
+        "id":"phone",
+        "name":"phone",
+        "type":"tel",
+        "label":"Twój numer telefonu:"
+    },
+    {
+        "id":"firstName",
+        "name":"firstName",
+        "type":"text",
+        "label":"Twoję imię:"
+    },
+    {
+        "id":"lastName",
+        "name":"lastName",
+        "type":"text",
+        "label":"Twoje nazwisko / Nazwa firmy:"
+    },
+    {
+        "id":"email",
+        "name":"email",
+        "type":"email",
+        "label":"Adres email:"
+    }
+]
